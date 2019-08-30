@@ -1,0 +1,41 @@
+<html lang="en" >
+
+
+<style>
+
+ 
+</style>
+	<head>
+		<title>土豆丝</title>
+		<link rel="stylesheet" type="text/css" href="./css/app.css" />
+	    <script src="js/app.js"></script>
+	</head>
+	<body>
+			<header class="header">
+				<h1 id="title" >土豆丝</h1>
+				<input id="allChecked" onclick="allChecked(this.checked)" type="checkbox" />
+				<input id='todoInputBox'  autofocus onkeypress="onInput(event, this)"  placeholder="What needs to be done?"/>
+		 
+      <!-- 定义一个白板，放置添加的条目 -->		
+      <div id="board"></div>
+	  <!-- 底部来一个块-->
+      <div id="underline">
+	    <!-- 三小块并列 -->
+        <span id="amount" class="amount">0 items left</span>
+       
+ 	    <span id="status" class="status"  >
+          <span id="s_all" onclick="showAll()">All</span>
+          <span id="s_active" onclick="showActive()">Active</span>
+          <span id="s_completed"onclick="showCompleted()">Completed</span>
+        </span>
+		<span>
+        <a id="clear" class='clear'  href="javascript:;" onclick="clearCompleted()">Clear completed</a>
+		</span>
+      </div>
+	     </header>
+		 
+	
+				
+			
+	</body>
+</html>

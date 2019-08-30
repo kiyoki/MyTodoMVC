@@ -1,0 +1,99 @@
+#title{
+  text-align: center;
+}
+
+#allChecked{
+  margin-left: 24px;
+}
+
+.header {
+  width: 400px;
+  height: 200px;
+  border: 1px solid blue;
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.todoInput {
+        border: 1px solid rgba(0, 0, 0, 0);
+}
+	  
+.selected {
+  padding: 4px 8px;
+  border: 1px solid red;
+}
+
+
+#todos {
+  width: 700px;
+  text-align: left;
+  margin: 0 auto;
+  border-left: 1px solid #E0601;
+  border-right: 1px solid #E0601;
+  background-color: #FFF;
+}
+.todo {
+  height: 48px;
+  line-height: 48px;
+  padding: 0 8px;
+  border-bottom: 1px solid #E0601;
+}
+.todo * {
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.todo input[type='checkbox'] {
+  margin: 0 16px;
+}
+.todo .todoInput{
+  height: 44px;
+  width: 500px;
+  font-size: 20px;
+}
+.todo a {
+  color: red;
+  display: none;
+  font-size: 24px;
+}
+.todo:hover a {
+  display: inline;
+}
+
+
+#underline {
+  width: 600px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 auto;
+  padding: 0 16px;
+  color: #666;
+  text-align: left;
+  border: 1px solid #E0601;
+  border-top: none;
+  background-color: #FFF;
+}
+#underline #amount {
+  display: inline-block;
+}
+#underline #status {
+  width: 360px;
+  text-align: center;
+  display: inline-block;
+}
+#underline #status span {
+  cursor: pointer;
+  padding: 4px 8px;
+  border: 1px solid #FFF;
+}
+#underline #status .selected {
+  padding: 4px 8px;
+  border: 1px solid red;
+}
+#underline a {
+  float: right;
+  color: #666;
+  cursor: pointer;
+}
